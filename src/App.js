@@ -51,7 +51,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Hot or Cold{this.state.correctAnswer}</h1>
+        <h1>Hot or Cold</h1>
         <section className="game">
           <Feedback feedback={this.state.userFeedback} />
           <UserFrom feedback={guess => this.feedbackforUser(guess)} />
