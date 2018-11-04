@@ -1,0 +1,47 @@
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+input.text {
+    text-align: center;
+    padding: 0.2em;
+    font-size: 2em;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    display: block;
+    padding: 0.8em 0;
+    margin: 0.8em auto 0;
+    background: #50597b;
+    color: #fff;
+    border: solid 1px #1f253d;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+input.button {
+    background: #1F253D;
+    color: #95a5a6;
+    font-size: 2em;
+    padding: 0.2em;
+    text-align: center;
+}
+
+#count {
+    color: #f39c12;
+    font-weight: 700;
+    font-size: 1.5em;
+}
